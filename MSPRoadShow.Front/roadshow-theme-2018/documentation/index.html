@@ -1,0 +1,389 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Eventor -  Conference &amp; Event HTML Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+		
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+	
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Eventor -  Conference &amp; Event HTML Template&rdquo; Documentation by &ldquo;Tripples&rdquo; 
+			v 1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">Eventor -  Conference &amp; Event HTML Template</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: October, 2017<br>
+					Updated: October, 2017<br>
+					By: Tripples<br>
+					Email: tripplesworld@gmail.com
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing <strong>Eventor</strong>. If you have any questions that are beyond the scope of this help file, please feel free to email via profile page contact form or
+				 mail me to tripplesworld@gmail.com</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScripts</a></li>
+			<li><a href="#navlogo">Navigation and Logos</a></li>
+			<li><a href="#fontssused">Fonts used</a></li>
+			<li><a href="#faqs">FAQs</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="introduction"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Eventor is a professional Conference and Event  Template. This HTML template specially designed for Conference, Meet-up, Seminars and event related business website. It also comes with twitter bootstrap 3, Video Popup, JCountre, Beautiful Tab, Speakers, Gallery and more.</p>
+		
+		<h2>Template Features</h2>
+		<ul>
+       	<li>4 Home Variations</li>
+       	<li>2 Different Header Layout</li>
+       	<li>Multipage Design</li>
+		   <li>HTML5 Validated</li>
+		   <li>Based on Twitter Bootstrap 3</li>
+		   <li>Responsive Template</li>
+		   <li>FontAwesomeicons</li>
+		   <li>Isotope</li>
+		   <li>Google Web Fonts</li>
+		   <li>Contact Form</li>
+		   <li>Stylist News Page</li>
+		   <li>Documentation</li>
+		   <li>Counter</li>
+		   <li>Easy to customize and user friendly</li>
+		</ul>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>HTML Files</h4>
+		<ul>
+			<li><em>index.html</em> - Home Page (Static Banner with JCounter)</li>
+			<li><em>index-2.html</em> - Home Page (Static Banner and Registration Form)</li>
+		</ul>
+		
+		<h4>General HTML structure</h4>
+		<p>This template structure based on Twitter Bootstrap 3. Here is the sample structure.</p>
+		
+<pre class="brush: html">
+<!-- Page Layout
+================================================== -->
+
+<!-- Header start -->
+<header id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Header end -->
+
+</pre>
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>Styles</h4>
+		
+<pre class="brush: html">
+<!-- CSS
+	================================================== -->
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Template styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Animation -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Colorbox -->
+	<link rel="stylesheet" href="css/colorbox.css">
+
+</pre>
+
+		<p>All css files are separates for improving convenience to edit this template.</p>
+		
+		<p>Some of stylesheets contain <em>Table of content</em> for easy navigation, for instance <strong>style.css</strong>:</p>
+		
+<pre class="brush: css">
+
+/* Table of Content
+==================================================
+1.		Typography
+2.  	Global Styles (body, link color, gap, ul, section-title, preloader, overlay etc)
+3.  	Header area
+4.		Banner area
+5.  	Slider
+6.		Countdown
+7.  	Features
+8.  	Facts
+9.		Schedule
+10.	Speakers
+11.	Sponsors
+12.	Pricing
+13. 	Content area
+14. 	Latest blog
+15.	Venue
+16. 	Footer
+17. 	Sub Pages
+18. 	Contact Us
+19. 	News Listing
+20. 	News Single
+21. 	Sidebar
+22. 	Error page
+  
+*/
+
+</pre>
+
+		<hr>
+		
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Below is the list of Javascript files.</p>
+		
+<pre class="brush: html">
+
+	<!-- Javascript Files
+	================================================== -->
+	<!-- initialize jQuery Library -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Counter -->
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<!-- Countdown -->
+	<script type="text/javascript" src="js/jquery.jCounter.js"></script>
+	<!-- Waypoints -->
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<!-- Color box for Popup-->
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<!-- Google Map -->
+	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+
+	<script type="text/javascript" src="js/gmap3.min.js"></script>
+
+	<!-- Template custom -->
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</pre>
+
+	If you face any difficulites to find source then please knock me to tripplesworld@gmail.com
+
+		<hr>
+		
+		<h3 id="navlogo"><strong>E) Navigation and Logos</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>Header Logo</h4>
+		<p>As you can see the logo is : <em>Image based</em> (by default) and you can make it text based if you want.</p>
+		
+<pre class="brush: html">
+	<div class="navbar-header">
+		<div class="logo">
+          <a href="index.html">
+          	<img src="images/logo.png" alt="">
+          </a>
+		</div><!-- logo end -->
+	</div><!-- Navbar header end -->
+</pre>
+		
+		<h4>Navigation Menu</h4>
+		<p>The page navigation links such as Home, Blog, Contacts etc are included.</p>
+		
+<pre class="brush: html">
+<div class="site-nav-inner">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+		</button>
+
+		<nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
+
+			<ul class="nav navbar-nav">
+			<li class="dropdown active">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
+				<ul class="dropdown-menu" role="menu">
+               <li class="active"><a href="index.html">Home One</a></li>
+               <li><a href="index-2.html">Home Two</a></li>
+               <li><a href="index-3.html">Home Three</a></li>
+               <li><a href="index-4.html">Home Four</a></li>
+            </ul>
+         </li><!-- Home li end -->
+
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Speakers <i class="fa fa-angle-down"></i></a>
+				<ul class="dropdown-menu" role="menu">
+               <li><a href="speakers-grid.html">Speakers Grid</a></li>
+               <li><a href="speakers-list.html">Speakers List</a></li>
+            </ul>
+         </li><!-- Speakers li end -->
+
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule <i class="fa fa-angle-down"></i></a>
+				<ul class="dropdown-menu" role="menu">
+               <li><a href="schedule-list.html">Schedule List</a></li>
+               <li><a href="schedule-tab.html">Schedule Tab</a></li>
+            </ul>
+         </li><!-- Schedule li end -->
+
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <i class="fa fa-angle-down"></i></a>
+				<ul class="dropdown-menu" role="menu">
+               <li><a href="about.html">About Eventime</a></li>
+               <li><a href="tickets.html">Tickets</a></li>
+               <li><a href="venue.html">Venue</a></li>
+               <li><a href="sponsors.html">Sponsors &amp; Partners</a></li>
+               <li><a href="faq.html">Faq</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+               <li><a href="404.html">404</a></li>
+               <li class="dropdown-submenu">
+             		<a href="#.">Parent Menu</a>
+             			<ul class="dropdown-menu">
+             				<li><a href="#">Child Menu 1</a></li>
+             				<li><a href="#">Child Menu 2</a></li>
+             				<li><a href="#">Child Menu 3</a></li>
+             			</ul>
+             	</li>
+            </ul>
+         </li><!-- About li end -->
+
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
+				<ul class="dropdown-menu" role="menu">
+               <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+               <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+               <li><a href="blog-single.html">Blog Single</a></li>
+            </ul>
+         </li><!-- Blog li end -->
+
+			<li><a href="contact.html">Contact</a></li>
+
+         <li class="header-ticket">
+         	<a class="ticket-btn btn-primary" href="tickets.html"><i class="fa fa-ticket"></i> Tickets</a>
+         </li>
+
+      </ul><!--/ Nav ul end -->
+
+		</nav><!--/ Collapse end -->
+
+</div><!--/ Site nav inner end -->
+</pre>
+		<br>
+
+		<hr>
+		
+		<h3 id="fontssused"><strong>G) Fonts Used</strong> - <a href="#toc">top</a></h3>
+		<p>I have used Roboto as body font and Lato heading font in this template. You can change the font from style.css line # 37 and #38</p>
+		
+		<ol>
+			<li><em><a href="#">Roboto</a></em> - Google Web Font</li>
+			<li><em><a href="#">Lato</a></em> - Google Web Font</li>
+		</ol><br/>
+		
+		
+		<hr>
+		
+		<h3 id="faqs"><strong>H) FAQs</strong> - <a href="#toc">top</a></h3>
+		
+		<h4><strong>How to change Contact Form Email Address for own?</strong></h4>
+		<ol>
+			<li>Please, open <em>contact-form.php</em></li>
+			<li>Find line 4 you will see<br>
+				<code>$recipient = "yourmail@domain.com";</code>
+			</li>
+			<li>You should change 'yourmail@domain.com' with your own.
+			</li>
+		</ol>
+
+		<h4><strong>How to change Map Address?</strong></h4>
+		<ol>
+			<li>With editor please open <em>index.html</em>, <em>venue.html</em>, <em>contact.html</em> etc. files >> go at the bottom and see the below screen shot. Change your Google API key from line # 1206. Here is the link how to get <a target="_blank" href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google MAP API KEY</a></li>
+			<p><img src="assets/images/contact1.jpg" alt="" /></p>
+			<li>Then open <em>custom.js</em> file and from line # 50 change Latitude and Longitude. Here is the doc to use <a target="_blank" href="http://www.latlong.net/">latitude and longitude.</a></li>
+			<li>After that Change Address from line # 66</li>
+			<p><img src="assets/images/contact2.jpg" alt="" /></p>
+		</ol>
+
+		<h4><strong>How to change Event Date?</strong></h4>
+		<ol>
+			<li>Please, open <em>custom.js</em> file >> From line # 39 Change the date of your Event.</li>
+			<img src="assets/images/date.jpg" alt="" />
+		</ol>
+		
+		<hr>
+		
+		<h3 id="credits"><strong>I) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<ul>
+			<li>Twitter Bootstrap</li>
+			<li>jQuery</li>
+			<li>FontAwesome Icons</li>
+			<li>Jcounter, Gmap3 and Colorbox</li>
+			<li>Images used from Pixabay, Photopin</li>
+
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this template. I'd be glad to help you if you have any questions relating to this template. I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>Tripples</strong>, tripplesworld@gmail.com</p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+	
+	
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+    SyntaxHighlighter.all()
+	</script>
+</body>
+</html>
