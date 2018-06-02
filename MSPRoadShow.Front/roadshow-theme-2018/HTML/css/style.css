@@ -2687,6 +2687,14 @@ h4.panel-title a.collapsed:before {
 }
 /* Contact Us
 ================================================== */
+.ts-contact-block{
+    background-color: #1c1c24;
+}
+.ts-contact-reference-block
+{
+    background-color: #fff;
+}
+
 .ts-contact .container {
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4); 
     padding: 20px 35px;
