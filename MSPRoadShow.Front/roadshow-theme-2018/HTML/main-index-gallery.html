@@ -49,49 +49,6 @@
 
    <body>
       <div class="body-inner">
-         <!-- Header start -->
-         <header id="header" class="header navbar-fixed-top">
-            <div class="container">
-               <div class="row">
-                  <div class="navbar-header">
-                     <div class="logo nav">
-                        <a href="#banner">
-                        <img src="images/logos/logo-dark.png" alt="">
-                        </a>
-                     </div>
-                     <!-- logo end -->
-                  </div>
-                  <!-- Navbar header end -->
-                  <div class="site-nav-inner">
-                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     </button>
-                     <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#ts-intro">Що буде?</a></li>
-                            <li><a href="#ts-causation">Причини відвідати</a></li>
-                            <li><a href="#road-show-2017">Минулий рiк</a></li>
-                            <li><a href="#gallerys">Галерея</a></li>
-                            <li><a href="#contacts">Зв’язок</a></li>
-                            <li class="header-ticket">
-                              <a class="ticket-btn btn-primary" style="display: none;" href="tickets.html"><i class="fa fa-ticket"></i> Tickets</a>
-                            </li>
-                        </ul>
-                        <!--/ Nav ul end -->
-                     </nav>
-                     <!--/ Collapse end -->
-                  </div>
-                  <!--/ Site nav inner end -->
-               </div>
-               <!--/ Row end -->
-            </div>
-            <!--/ Container end -->
-         </header>
-         <!--/ Header end -->
-
          <!-- Section banner start -->
          <section id="banner">
             <div class="banner-item bg-overlay">
@@ -116,6 +73,49 @@
             <!-- Banner item end -->
          </section>
          <!-- Section banner end -->
+
+         <!-- Header start -->
+         <header id="header" class="header">
+                <div class="container">
+                   <div class="row">
+                      <div class="navbar-header">
+                         <div class="logo nav">
+                            <a href="#banner">
+                            <img src="images/logos/logo-dark.png" alt="">
+                            </a>
+                         </div>
+                         <!-- logo end -->
+                      </div>
+                      <!-- Navbar header end -->
+                      <div class="site-nav-inner">
+                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         </button>
+                         <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#ts-intro">Що буде?</a></li>
+                                <li><a href="#ts-causation">Причини відвідати</a></li>
+                                <li><a href="#road-show-2017">Минулий рiк</a></li>
+                                <li><a href="#gallerys">Галерея</a></li>
+                                <li><a href="#contacts">Зв’язок</a></li>
+                                <li class="header-ticket">
+                                  <a class="ticket-btn btn-primary" style="display: none;" href="tickets.html"><i class="fa fa-ticket"></i> Tickets</a>
+                                </li>
+                            </ul>
+                            <!--/ Nav ul end -->
+                         </nav>
+                         <!--/ Collapse end -->
+                      </div>
+                      <!--/ Site nav inner end -->
+                   </div>
+                   <!--/ Row end -->
+                </div>
+                <!--/ Container end -->
+         </header>
+         <!--/ Header end -->
 
          <!-- Intro area start -->
          <section id="ts-intro" class="ts-intro">
@@ -232,7 +232,7 @@
                   </div>
                   <!-- Col end -->
                   <div class="col-md-4">
-                     <div class="ts-pricing-box">
+                     <div class="ts-pricing-box pricing-featured">
                         <div class="ts-causation-header">
                             <h2 class="ts-causation-name">Доповіді</h2>
                         </div>
@@ -246,7 +246,7 @@
                   </div>
                   <!-- Col end -->
                   <div class="col-md-4">
-                     <div class="ts-pricing-box" style="height:  100%;">
+                     <div class="ts-pricing-box" style="height: 100%;">
                         <div class="ts-causation-header">
                             <h2 class="ts-causation-name">Комьюніті</h2>
                         </div>
@@ -386,12 +386,10 @@
          <!-- Gallery end -->
 
          <!-- Contact info start -->
-         <section id="contacts" class="ts-contact">
+         <section id="contacts" class="ts-causation">
             <div class="gap-60"></div>
-            <div class="row text-center">
-                <h3 class="section-sub-title">Як з нами звязатися</h3>
-            </div><!--/ Title row end -->
             <div class="container">
+              <div class="ts-contact-reference-block">
                 <div class="row">    
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="sidebar sidebar-left">
@@ -453,12 +451,13 @@
                                     <textarea class="form-control form-control-message" name="message" id="message" placeholder="Повідомлення" rows="8" required></textarea>
                                 </div>
                                 <div class="text-right"><br>
-                                    <button class="btn btn-primary btn-full" type="submit"><i class="fa fa-paper-plane-o"></i> Відправити повідомлення</button> 
+                                    <button class="btn btn-primary btn-full" type="submit"><i class="fa fa-paper-plane-o"></i> Відправити</button> 
                                 </div>
                             </form><!-- Contact form end -->
                     </div><!-- Col end -->
                 
                 </div><!-- Content row -->
+              </div>
     
             </div><!-- Conatiner end -->
          </section>
@@ -538,6 +537,7 @@
          <script type="text/javascript" src="js/gallery.js"></script>
          <script type="text/javascript" src="js/custom.js"></script>
          <script type="text/javascript" src="js/script.js"></script>
+         <script type="text/javascript" src="js/header.scroll.js"></script>
          
          <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js'></script>
          

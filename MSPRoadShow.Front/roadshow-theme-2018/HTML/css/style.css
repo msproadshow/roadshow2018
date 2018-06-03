@@ -613,6 +613,18 @@ a[href^=tel] {
     z-index: 2;
 }
 
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+  }
+
 
 /* Header transparent */
 
@@ -885,7 +897,7 @@ ul.navbar-nav > li:hover > a{
 
 .banner-content,
 .banner-reg-form {
-    padding: 280px 0;
+    padding: 150px 0;
     width: 100%;
     vertical-align: middle;
     position: relative;
@@ -2693,6 +2705,8 @@ h4.panel-title a.collapsed:before {
 .ts-contact-reference-block
 {
     background-color: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 20px 35px;
 }
 
 .ts-contact .container {

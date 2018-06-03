@@ -98,10 +98,9 @@
 
    .navbar-toggle{
    	display: block;
-		position: absolute;
-    	top: 0;
+		position: absolute; 	
     	right: 25px;
-    	margin-top: 28px;
+    	margin-top: -60px;
     	z-index: 1;
 	}
 
@@ -526,9 +525,8 @@
 
 	.navbar-toggle{
 		position: absolute;
-    	top: 0;
     	right: 20px;
-    	margin-top: 25px;
+    	margin-top: -60px;
     	z-index: 1;
 	}
 
