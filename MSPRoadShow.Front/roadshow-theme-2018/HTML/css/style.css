@@ -332,6 +332,16 @@ img.pull-right {
 
 /* Title classic */
 
+.col-md-6.title-roadshow {
+    padding-left: 60px; 
+    border-left: 1px solid #dedede;
+}
+.title-classic-right {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
 .title-classic {
     font-size: 30px;
     line-height: 40px;
@@ -869,6 +879,7 @@ ul.navbar-nav > li:hover > a{
 .header-ticket .ticket-btn {
     color: #fff;
     background: #6859de;
+    display: none;
 }
 .header-ticket .ticket-btn:hover,
 .header-ticket .ticket-btn:focus {
@@ -885,11 +896,13 @@ ul.navbar-nav > li:hover > a{
 .banner-item {
     min-height: 800px;
     color: #fff;
+    
     background-image:url(../images/hero-area/bg-main.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: auto;
     -webkit-backface-visibility: hidden;
 }
 
@@ -941,6 +954,7 @@ ul.navbar-nav > li:hover > a{
 .banner-subtitle{
     font-size: 36px;
     color: #fff;
+    display: none;
 }
 .banner-desc {
     font-size: 24px;
@@ -949,6 +963,7 @@ ul.navbar-nav > li:hover > a{
 
 .banner-btn{
     margin:40px 0 0;
+    display: none;
 }
 .banner-btn a{
     margin: 0 6px;
@@ -1406,6 +1421,10 @@ ul.navbar-nav > li:hover > a{
     padding-bottom: 80px;
 }
 
+.ts-intro .container .row {
+    margin-top: 45px;
+}
+
 .ts-intro .btn-primary{
     margin-top: 15px;
 }
@@ -1458,7 +1477,7 @@ ul.navbar-nav > li:hover > a{
     max-width: 100%;
     position: relative;
     overflow: hidden;
-    margin-top: -60px;
+    margin-top: -80px;
 }
 
 
@@ -2699,6 +2718,14 @@ h4.panel-title a.collapsed:before {
 }
 /* Contact Us
 ================================================== */
+.ts-contact-img {
+    background-color: #f5f5f5;
+    background-image: url(http://meetup.mediumra.re/img/hero4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0;
+}
 .ts-contact-block{
     background-color: #1c1c24;
 }
