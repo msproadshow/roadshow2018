@@ -580,7 +580,9 @@
 	/* Banner & Counter */
 
 	.banner-content-wrap:before{
-		top: -90px;
+		max-width: 380px;
+		margin-left: -180px;
+		top: -140px;
 	}
 
 	.countdown div > span{
@@ -610,13 +612,18 @@
 		margin-top: 10px;
 	}
 
+	.banner-roadshow {
+		font-size: 42px;
+   		margin-top: 8px;
+	}
+
 	.banner-subtitle {
    	font-size: 22px;
    	margin-top: 8px;
    }
 
 	.banner-content .banner-desc{
-		font-size: 14px;
+		font-size: 24px;
 		margin: 0;
 	}
 
@@ -862,7 +869,7 @@
 	.banner-content-wrap:before{
 		border: 0;
 	}
-
+	
 }
 
 /* Custom, iPhone Retina */ 

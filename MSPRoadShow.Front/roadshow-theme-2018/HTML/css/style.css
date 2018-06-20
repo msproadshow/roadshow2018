@@ -2731,7 +2731,7 @@ h4.panel-title a.collapsed:before {
 ================================================== */
 .ts-contact-img {
     background-color: #f5f5f5;
-    background-image: url(http://meetup.mediumra.re/img/hero4.jpg);
+    background-image: url(../images/ts-contact.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
