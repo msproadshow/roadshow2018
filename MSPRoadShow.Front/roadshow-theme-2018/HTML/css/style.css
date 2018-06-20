@@ -933,13 +933,13 @@ ul.navbar-nav > li:hover > a{
     position: absolute;
     top: -65px;
     width: 100%;
-    max-width: 380px;
+    max-width: 800px;
     text-align: center;
     height: 500px;
     left: 50%;
-    margin-left: -190px;
+    margin-left: -400px;
     z-index: -1;
-    border: 18px solid rgba(104,89,222,0.35);
+    border: 18px solid rgba(255,231,115,0.39);
     box-sizing: border-box;
     box-shadow: 0 60px 40px -40px rgba(0,0,0,0.3);
 }
@@ -947,7 +947,13 @@ ul.navbar-nav > li:hover > a{
 
 .banner-title {
     color: #fff;
-    font-size: 62px;
+    font-size: 58px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+.banner-roadshow {
+    color: #fff;
+    font-size: 88px;
     line-height: 72px;
     text-transform: uppercase;
 }
@@ -957,7 +963,7 @@ ul.navbar-nav > li:hover > a{
     display: none;
 }
 .banner-desc {
-    font-size: 24px;
+    font-size: 34px;
     color: #fff;
 }
 
