@@ -1434,8 +1434,13 @@ ul.navbar-nav > li:hover > a{
 }
 
 .ts-intro-center .intro-desc{
-    max-width: 850px;
+    max-width: 850px;    
     margin: 0 auto;
+}
+
+p.intro-desc {
+    text-align: justify; 
+    padding: 40px 0 20px 0;
 }
 
 .intro-content{
