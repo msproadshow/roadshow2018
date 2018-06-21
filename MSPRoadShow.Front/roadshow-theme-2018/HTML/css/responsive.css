@@ -296,6 +296,7 @@
 	.intro-video{
 		display: inline-block;
 		margin-top: 30px;
+		margin-left: 105px;
 	}
 
 	.featured-tab{
@@ -660,6 +661,7 @@
 	.intro-video{
 		display: inline-block;
 		margin-top: 30px;
+		margin-left: 0;
 	}
 
 	.featured-tab{

@@ -89,6 +89,24 @@ h5 {
     line-height: 24px;
 }
 
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #9E9E9E;
+    border-radius: 26px;
+}
+::-webkit-scrollbar-thumb:hover{    
+    background-color: #616161;
+}
+::-webkit-scrollbar-track{
+    border-width: 0;
+}
+::-webkit-scrollbar-track:hover{
+    background-color: #EEEEEE;
+}
+
+
 /* Global styles
 ================================================== */
 
@@ -931,7 +949,7 @@ ul.navbar-nav > li:hover > a{
 .banner-content-wrap:before {
     content: '';
     position: absolute;
-    top: -65px;
+    top: -70px;
     width: 100%;
     max-width: 800px;
     text-align: center;
@@ -1488,7 +1506,8 @@ p.intro-desc {
     max-width: 100%;
     position: relative;
     overflow: hidden;
-    margin-top: -80px;
+    margin-top: -100px;
+    margin-left: 40px;
 }
 
 
