@@ -11,7 +11,7 @@ var sticky = header.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     header.classList.add("sticky");
-    $("#ts-int").css("margin-top","80px");
+    $("#ts-int").css("margin-top","92px");
 //    $("#ts-int").css("margin-top","80px");
     
   } else {

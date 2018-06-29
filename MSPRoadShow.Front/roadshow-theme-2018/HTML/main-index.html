@@ -35,9 +35,7 @@
       <!-- Colorbox -->
       <link rel="stylesheet" href="css/colorbox.css">
       <!-- Jquery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>   
 
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -101,10 +99,7 @@
                                 <li><a href="#ts-intro">Що буде?</a></li>
                                 <li><a href="#ts-causation">Причини відвідати</a></li>
                                 <li><a href="#road-show-2017">Минулий рiк</a></li>
-                                <li><a href="#contact">Зв’язок</a></li>
-                                <li class="header-ticket">
-                                  <a class="ticket-btn btn-primary" href="tickets.html"><i class="fa fa-ticket"></i> Tickets</a>
-                                </li>
+                                <li><a href="#contactss">Зв’язок</a></li>
                             </ul>
                             <!--/ Nav ul end -->
                          </nav>
@@ -117,7 +112,6 @@
                 <!--/ Container end -->
          </header>
          <!--/ Header end -->
-
 
          <!-- Intro area start -->
          <section id="ts-intro" class="ts-intro">
@@ -304,7 +298,7 @@
                             <iframe 
                                 width="500" 
                                 height="315" 
-                                src="https://www.youtube.com/embed/KUd6f5aunj8" 
+                                src="https://www.youtube.com/embed/5UW4IZVnCMo" 
                                 frameborder="0" 
                                 allow="autoplay; encrypted-media" 
                                 allowfullscreen>
@@ -378,7 +372,7 @@
          <!-- RoadShow2017 end -->
         
          <!-- Contact info start -->
-         <section id="contact" class="ts-contact-img" data-0="background-position: 50% -100px;" data-end="background-position: 50% -50px;">
+         <section id="contactss" class="ts-contact-img" data-0="background-position: 50% -100px;" data-end="background-position: 50% -50px;">
             <div class="gap-30"></div>
             <div class="container">
                     <div class="ts-contact-reference-block">
@@ -409,7 +403,7 @@
                                     <div class="contact-info-box">
                                         <i class="fa fa-phone">&nbsp;</i>
                                         <div class="contact-info-box-content">
-                                            <h4>Phone: </h4>
+                                            <h4>Телефон: </h4>
                                             <p>+1(0123) 4567 890, +1(0231) 3421 453</p>
                                         </div>
                                     </div>
@@ -420,34 +414,46 @@
     
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <h3>Зв'яжіться прямо зараз</h3>
-                        <form id="contact-form"  class="contact-form" action="contact-form.php" method="post">
-                                <div class="error-container"></div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                        <input class="form-control form-control-name" placeholder="Ім'я" name="name" id="name" type="text" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input class="form-control form-control-email" placeholder="Електронна пошта" name="email" id="email" 
-                                            type="email" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input class="form-control form-control-subject" placeholder="Тема" name="subject" id="subject" required>
-                                            
-                                        </div>
-                                    </div>
+                        <div class="contact" role="alert">
+                            <form name="contactform" id="contactform" class="contact-form">
+                              <div class="cd-popup-container">
+                                <p></p>
+                          
+                                <div class="name">
+                                  <label for="name">Ім’я</label>
+                                  <input type="text" id="name" name="name" />
                                 </div>
-                                <div class="form-group">
-                                    <textarea class="form-control form-control-message" name="message" id="message" placeholder="Повідомлення" rows="8" required></textarea>
+                                <div class="email">
+                                  <label for="email">Email</label>
+                                  <input type="text" id="email" name="email" />
                                 </div>
-                                <div class="text-right"><br>
-                                    <button class="btn btn-primary btn-full" type="submit"><i class="fa fa-paper-plane-o"></i> Відправити</button> 
+                                <div class="message">
+                                  <label for="message">Повідомлення</label>
+                                  <textarea name="message" id="message" name="message"></textarea>
                                 </div>
-                            </form><!-- Contact form end -->
+                                <br>
+                                <div style="text-align:left; margin-left: 5px">
+                                  <input type="checkbox" id="human" name="human" />
+                                  <label for="human">Я не робот)</label>
+                                </div>
+                                <br>
+                                  <input type="submit" name="submit" id="submit" value="Відправити" />
+                              </div>
+                            </form>
+                          </div>
+
+                          <div class="cd-popup notification" role="alert">
+                            <div class="cd-popup-container-alert">
+                              <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times" style="pointer-events:none;"></i></a>
+                              <p>
+                                <img src="images/logos/logo-web.png " alt="" />
+                                <div class="notification-text">
+                                    <small id="notification-text">Thanks for getting in touch!</small>
+                                </div>
+                              </p>
+                            </div>
+                          </div>
+                        <!-- Contact form end -->
                     </div><!-- Col end -->
                 
                 </div><!-- Content row -->
@@ -467,7 +473,7 @@
                            <li><a href="#ts-intro">Що буде?</a></li>
                            <li><a href="#ts-causation">Причини відвідати</a></li>
                            <li><a href="#road-show-2017">Минулий рiк</a></li>
-                           <li><a href="#contact">Зв’язок</a></li>
+                           <li><a href="#contactss">Зв’язок</a></li>
                         </ul>
                      </div>
                      <!-- Footer menu end -->
@@ -484,7 +490,7 @@
                      </div>
                      <!-- Footer social end -->
                      <div class="copyright-info">
-                        <span>Copyright © 2017 Eventor. All Rights Reserved.</span>
+                        <span>© 2018 Microsoft Student Partners Ukraine</span>
                      </div>
                      <!-- Copyright info end -->
                   </div>
@@ -494,7 +500,7 @@
             </div>
             <!-- Container end -->
             <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
-               <button class="btn btn-primary" title="Back to Top">
+               <button class="btn btn-primary" title="На початок">
                <i class="fa fa-angle-up"></i>
                </button>
             </div>
@@ -509,10 +515,6 @@
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
          <!-- Counter -->
          <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
-         <!-- Countdown -->
-         <script type="text/javascript" src="js/jquery.jCounter.js"></script>
-         <!-- Animated Pie chart-->
-         <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
          <!-- Animated Easing scroll-->
          <script type="text/javascript" src="js/jquery.easing.js"></script>
          <!-- Waypoints -->
@@ -521,16 +523,16 @@
          <script type="text/javascript" src="js/jquery.colorbox.js"></script>
          <!-- Smoothscroll -->
          <script type="text/javascript" src="js/smoothscroll.js"></script>
-         <!-- Google Map Plugin-->
-         <script type="text/javascript" src="js/gmap3.js"></script>      
          <!-- Skroll -->
          <script type="text/javascript" src='js/skrollr.min.js'></script>
 
          <!-- Template custom -->
+         <script src="js/contact.js"></script>
          <script type="text/javascript" src="js/custom.js"></script>
+         <script type="text/javascript" src="js/index.js"></script> 
          <script type="text/javascript" src="js/script.js"></script>
          <script type="text/javascript" src="js/header.scroll.js"></script>
-         <script type="text/javascript" src="js/index.js"></script>
+         
       </div>
       <!-- Body inner end -->
    </body>
