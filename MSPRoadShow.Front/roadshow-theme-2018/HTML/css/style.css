@@ -199,6 +199,10 @@ section,
 .media>.pull-left {
     margin-right: 20px;
 }
+.gap-250 {
+    clear: both;
+    height: 250px;
+}
 .gap-120 {
     clear: both;
     height: 120px;
@@ -1626,7 +1630,7 @@ p.intro-desc {
 }
 .facts-wrapper .ts-facts {
     border-right: 1px solid #dedede;  
-    margin-right: 20px;  
+    margin-right: 10px;  
 }
 
 .solid-dark .facts-wrapper .ts-facts {
