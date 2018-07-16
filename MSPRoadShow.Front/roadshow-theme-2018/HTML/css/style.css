@@ -924,7 +924,7 @@ ul.navbar-nav > li:hover > a{
     background-attachment: fixed;
     background-position: 50% 50%;
     -webkit-background-size: cover;
-    background-size: auto;
+    background-size: cover;
     -webkit-backface-visibility: hidden;
 }
 
