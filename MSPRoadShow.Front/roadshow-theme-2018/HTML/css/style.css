@@ -982,7 +982,6 @@ ul.navbar-nav > li:hover > a{
 .banner-subtitle{
     font-size: 36px;
     color: #fff;
-    display: none;
 }
 .banner-desc {
     font-size: 34px;
@@ -1002,7 +1001,7 @@ ul.navbar-nav > li:hover > a{
 .hero-big-date{
     padding: 20px 50px;
     color: #fff;
-    background-color: rgba(255, 8, 86, 0.7);
+    background-color: rgba(2, 119, 189, 0.7);
     height: 250px;
 }
 
@@ -1749,7 +1748,7 @@ p.intro-desc {
 
 .ts-speakers-bg{
     background-color: #f5f5f5;
-    background-image: url(../images/parallax1.jpg);
+    background-image: url(http://reklamaster.com/wp-content/uploads/2017/11/1474622992133_136963.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -1764,6 +1763,7 @@ p.intro-desc {
     transition: all .4s ease;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    border-radius: 5px 5px 0 0;
 }
 
 .ts-speaker:hover{
@@ -1788,7 +1788,6 @@ p.intro-desc {
     right: 0;
     bottom: 0;
     opacity: 0;
-    border-radius: 5px;
     -webkit-transition: 400ms;
     -moz-transition: 400ms;
     -o-transition: 400ms;
@@ -1839,6 +1838,9 @@ p.intro-desc {
 }
 .ts-speaker-image .social-links li a i:hover {
     background: #1b1b1b;
+}
+.img-responsive {
+    border-radius: 5px 5px 0 0 !important;
 }
 .ts-speaker-info {
     padding: 15px 20px;
